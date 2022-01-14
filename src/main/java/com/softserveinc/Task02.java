@@ -38,9 +38,9 @@ public class Task02 {
         System.out.print("Write how many cups of coffee you will need: " +
                 ">>> ");
 
-        int waterPerCups = 200;
-        int milkPerCups = 50;
-        int beansPerCups = 15;
+         final int waterPerCups = 200;
+         final  int milkPerCups = 50;
+         final int beansPerCups = 15;
         int cupsNumber = scanner.nextInt();
         System.out.println("For " + cupsNumber + " cups of coffee you will need:");
 
